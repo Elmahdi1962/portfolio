@@ -1,0 +1,18 @@
+@font-face{
+  font-family: "RobotoMonoRegular";
+  src: local("RobotoMonoRegular"),
+  url("./fonts/Roboto_Mono/static/RobotoMono-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+body {
+  margin: 0;
+  font-family: "RobotoMonoRegular", -apple-system, BlinkMacSystemFont;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:aliceblue;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
