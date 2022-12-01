@@ -1,4 +1,4 @@
-.home-container {
+.contact-container {
     width: 100vw;
     height: calc(100vh - var(--navbar-height));
     background: linear-gradient(110deg, #AEDBCE 0%, #AEDBCE 50%, #839AA8 50%, #839AA8 100%);

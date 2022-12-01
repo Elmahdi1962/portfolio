@@ -4,7 +4,7 @@
 
 .navbar {
     width: 100vw;
-    background-color: rgb(80, 203, 90);
+    background-color: #344D67;
     height: var(--navbar-height);
 }
 
@@ -23,10 +23,10 @@
     line-height: var(--navbar-height);
     text-decoration: none;
     padding: 0 40px;
-    color: rgb(255, 255, 255);
+    color: white;
     font-weight: 400;
 }
 
 .navbar > nav > a:hover {
-    background-color: forestgreen;
+    background-color: #839AA8;
 }

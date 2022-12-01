@@ -1,16 +1,15 @@
 import "./navbar.css";
-import { Link } from "react-router-dom";
 
 export interface NavbarProps {}
 
-export function Navbar(props: NavbarProps) {
+export default function Navbar(props: NavbarProps) {
   return (
     <header className="navbar">
       <nav>
-        <Link to="/">Home</Link>
-        <Link to="/skills">Skills</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/contact">Contact</Link>
+        <a href="/">Home</a>
+        <a href="/skills">Skills</a>
+        <a href="/projects">Projects</a>
+        <a href="/contact">Contact</a>
       </nav>
     </header>
   );
