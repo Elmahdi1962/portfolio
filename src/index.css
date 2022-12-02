@@ -4,6 +4,17 @@
   url("./fonts/Roboto_Mono/static/RobotoMono-Regular.ttf") format("truetype");
   font-weight: 400;
 }
+
+::-webkit-scrollbar {
+  width: 0;
+  display: none;
+}
+
+* {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
 body {
   margin: 0;
   font-family: "RobotoMonoRegular", -apple-system, BlinkMacSystemFont;
