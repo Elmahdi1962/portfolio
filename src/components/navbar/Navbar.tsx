@@ -1,19 +1,26 @@
 import "./navbar.css";
+import { angles } from "../../App";
 import { useEffect } from "react";
 
 export interface NavbarProps {}
 
+export let clickedLink = "#home";
+
 export default function Navbar(props: NavbarProps) {
   const scrollSmoothner = (e: any | null) => {
     e?.preventDefault();
+    const container = document.querySelector("#content-container");
     if (e !== null && e.target !== null) {
-      document
-        ?.querySelector(
-          (e.target as HTMLAnchorElement).getAttribute("href") || ""
-        )
-        ?.scrollIntoView({
-          behavior: "smooth",
-        });
+      const id = (e.target as HTMLAnchorElement).getAttribute("href") || "";
+      document?.querySelector(id)?.scrollIntoView({
+        behavior: "smooth",
+      });
+      clickedLink = id;
+      // also rotate grandient
+      (container as HTMLElement).style.setProperty(
+        "--angle",
+        angles[clickedLink as keyof typeof angles]
+      );
     }
   };
 

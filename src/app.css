@@ -1,7 +1,17 @@
+@property --angle {
+    syntax: '<angle>';
+    inherits: false;
+    initial-value: 53deg;
+  }
+  
+
 #content-container {
+    --angle: 53deg; /*  needed for firefox to have a valid output */
     width: 100vw;
     min-width: 100vw;
     max-width: 100vw;
+    background: linear-gradient(var(--angle) , #a80303 0%, #df5f5f 50%, #4b77d6 50%, #031d4a 100%);
+    transition: --angle 1s;
     overflow-x: scroll;
     display: flex;
     flex-direction: row;
