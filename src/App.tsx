@@ -7,6 +7,7 @@ import "./app.css";
 
 import { useEffect } from "react";
 
+// copy of the clickedLink imported variable to be able to change it
 let clickedLinkC = clickedLink;
 
 export const angles = {
@@ -26,10 +27,15 @@ function App() {
     for (let i = 0; i < links.length; i++) {
       // if found the link that was alredy clicked
       if (links[i].getAttribute("href") === clickedLinkC) {
+        // check if scrolled forward or backward
+        let c = 1;
+        if (e.wheelDelta > 0) {
+          c = -1;
+        }
         // if there is a next link in the list then click that next link
         // and update clicked link variable
-        if (i + 1 < links.length) {
-          clickedLinkC = links[i + 1].getAttribute("href") || "";
+        if (i + c < links.length && i + c >= 0) {
+          clickedLinkC = links[i + c].getAttribute("href") || "#home";
           document?.querySelector(clickedLinkC)?.scrollIntoView({
             behavior: "smooth",
           });
@@ -39,11 +45,19 @@ function App() {
             angles[clickedLinkC as keyof typeof angles]
           );
         } else {
-          // else click the first link
-          clickedLinkC = links[0].getAttribute("href") || "";
-          document?.querySelector(clickedLinkC)?.scrollIntoView({
-            behavior: "smooth",
-          });
+          // else click the first link if c is 1 or last if c is -1
+          if (c === 1) {
+            clickedLinkC = links[0].getAttribute("href") || "#home";
+            document?.querySelector(clickedLinkC)?.scrollIntoView({
+              behavior: "smooth",
+            });
+          } else {
+            clickedLinkC =
+              links[links.length - 1].getAttribute("href") || "#home";
+            document?.querySelector(clickedLinkC)?.scrollIntoView({
+              behavior: "smooth",
+            });
+          }
           // also rotate grandient
           (container as HTMLElement).style.setProperty(
             "--angle",
@@ -59,10 +73,10 @@ function App() {
     // get scrollable elm
     const elm = document.getElementById("content-container");
     // add scroll event listener
-    (elm as HTMLElement).addEventListener("mousewheel", scrollSnaper);
+    (elm as HTMLElement).addEventListener("wheel", scrollSnaper);
 
     // remove listener on cleanUp
-    return document.removeEventListener("mousewheel", scrollSnaper);
+    return document.removeEventListener("wheel", scrollSnaper);
   }, []);
   return (
     <div className="App">
