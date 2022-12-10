@@ -1,11 +1,11 @@
-.projects-container {
+.experience-container {
     width: 100vw;
     min-width: 100vw;
     max-width: 100vw;
     height: calc(100vh - var(--navbar-height));
 }
 
-.projects-wrapper {
+.experience-wrapper {
     width: 1200px;
     min-width: 1200px;
     max-width: 1200px;
