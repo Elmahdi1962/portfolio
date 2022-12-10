@@ -9,12 +9,17 @@ export let clickedLink = "#home";
 export default function Navbar(props: NavbarProps) {
   const scrollSmoothner = (e: any | null) => {
     e?.preventDefault();
+    // focus the anchor
+    e.target.focus();
+    // get container of all the main sections
     const container = document.querySelector("#content-container");
+    // scroll to the appropriate section
     if (e !== null && e.target !== null) {
       const id = (e.target as HTMLAnchorElement).getAttribute("href") || "";
       document?.querySelector(id)?.scrollIntoView({
         behavior: "smooth",
       });
+      // update clickedLink
       clickedLink = id;
       // also rotate grandient
       (container as HTMLElement).style.setProperty(

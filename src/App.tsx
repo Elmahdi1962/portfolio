@@ -35,6 +35,9 @@ function App() {
         // if there is a next link in the list then click that next link
         // and update clicked link variable
         if (i + c < links.length && i + c >= 0) {
+          // focus the anchor
+          (links[i + c] as HTMLAnchorElement).focus();
+          // update clickedLinkC "clicked Link copy"
           clickedLinkC = links[i + c].getAttribute("href") || "#home";
           document?.querySelector(clickedLinkC)?.scrollIntoView({
             behavior: "smooth",
@@ -47,11 +50,17 @@ function App() {
         } else {
           // else click the first link if c is 1 or last if c is -1
           if (c === 1) {
+            // focus the anchor
+            (links[0] as HTMLAnchorElement).focus();
+            // update clickedLinkC "clicked Link copy"
             clickedLinkC = links[0].getAttribute("href") || "#home";
             document?.querySelector(clickedLinkC)?.scrollIntoView({
               behavior: "smooth",
             });
           } else {
+            // focus the anchor
+            (links[links.length - 1] as HTMLAnchorElement).focus();
+            // update clickedLinkC "clicked Link copy"
             clickedLinkC =
               links[links.length - 1].getAttribute("href") || "#home";
             document?.querySelector(clickedLinkC)?.scrollIntoView({
