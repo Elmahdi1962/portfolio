@@ -37,18 +37,27 @@
     padding: 0 50px;
 }
 
-.home-wrapper button {
+.download-btn {
     height: 50px;
     width: 200px;
+    text-decoration: none;
+    line-height: 50px;
+    text-align: center;
     background-color: rgb(100, 136, 220);
     border-radius: 5px;
     border: none;
-    color: rgb(236, 229, 243);
+    color: white;
     font-size: 14;
     font-weight: bold;
 }
 
-.home-wrapper button:hover {
-    background-color: rgba(100, 136, 220, 0.789);
+.download-btn:hover {
+    color: rgba(100, 136, 220, 0.789);
+    background-color: aliceblue;
     cursor: pointer;
+}
+
+.download-btn:active {
+    background-color: rgb(214, 232, 249);
+    transform: scale(0.97);
 }

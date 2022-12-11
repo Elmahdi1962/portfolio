@@ -14,7 +14,13 @@ export default function Home(props: HomeProps) {
           development, Agricultural and dairy farming. Seeking to get my dream
           job as a Frontend developer.
         </p>
-        <button>Download Resume</button>
+        <a
+          href={process.env.PUBLIC_URL + "data/resume.pdf"}
+          download="resume.pdf"
+          className="download-btn"
+        >
+          Download Resume
+        </a>
       </div>
     </section>
   );
