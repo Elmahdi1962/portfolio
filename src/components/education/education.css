@@ -1,0 +1,17 @@
+.education-container {
+    width: 100vw;
+    min-width: 100vw;
+    max-width: 100vw;
+    height: calc(100vh - var(--navbar-height));
+}
+
+.education-wrapper {
+    width: 1200px;
+    min-width: 1200px;
+    max-width: 1200px;
+    height: calc(100vh - var(--navbar-height));
+    max-height: calc(100vh - var(--navbar-height));
+    min-height: calc(100vh - var(--navbar-height));
+    background-color: rgba(104, 51, 107, 0.576);
+    margin: auto;
+}

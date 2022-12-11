@@ -7,16 +7,18 @@ import "./app.css";
 
 import { useEffect } from "react";
 import Experience from "./components/experience/experience";
+import Education from "./components/education/education";
 
 // copy of the clickedLink imported variable to be able to change it
 let clickedLinkC = clickedLink;
 
 export const angles = {
-  "#home": "30deg",
-  "#skills": "73deg",
-  "#experience": "100deg",
-  "#projects": "125deg",
-  "#contact": "150deg",
+  "#home": "20deg",
+  "#skills": "63deg",
+  "#experience": "90deg",
+  "#education": "115deg",
+  "#projects": "140deg",
+  "#contact": "165deg",
 };
 
 function App() {
@@ -96,6 +98,7 @@ function App() {
         <Home />
         <Skills />
         <Experience />
+        <Education />
         <Projects />
         <Contact />
       </div>
