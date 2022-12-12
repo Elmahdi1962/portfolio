@@ -9,8 +9,7 @@
 
 .home-wrapper {
     width: 1200px;
-    min-width: 1200px;
-    max-width: 1200px;
+    max-width: 100vw;
     height: calc(100vh - var(--navbar-height));
     max-height: calc(100vh - var(--navbar-height));
     min-height: calc(100vh - var(--navbar-height));
@@ -29,6 +28,8 @@
 
 .home-wrapper h1 {
     color: aliceblue;
+    word-wrap: break-word;
+    word-break: break-word;
 }
 
 .home-wrapper p {
