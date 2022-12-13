@@ -1,0 +1,31 @@
+.skill-item {
+    padding: 5px;
+    background-color: rgb(230, 241, 250);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    gap: 10px;
+    cursor: pointer;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 5px;
+    transition: all .3s ease;
+}
+
+.skill-item p {
+    margin: 0;
+}
+
+.skill-item:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    transform: scale(1.1) rotate(10deg);
+}
+
+.skill-icon {
+    height: 45px;
+    width: 45px;
+}
