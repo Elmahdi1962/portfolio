@@ -143,8 +143,8 @@
         "icon": "farm-64.png",
         "type": "None Tech"
     },
-    "ElectricalInstallations": {
-        "title": "Electrical Installations",
+    "InstallationElectricity": {
+        "title": "Installation Electricity",
         "experience": "1 year",
         "icon": "electrician-64.png",
         "type": "None Tech"
