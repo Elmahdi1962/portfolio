@@ -7,7 +7,8 @@
     min-width: 100vw;
     max-width: 100vw;
     background-color: rgb(0, 0, 0);
-    height: var(--navbar-height);
+    min-height: var(--navbar-height);
+    max-height: var(--navbar-height);
 }
 
 .navbar > nav {
@@ -15,14 +16,19 @@
     padding: 0;
     margin: 0;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .navbar > nav > a{
     display: inline-block;
-    height: var(--navbar-height);
+    height: 50px;
     padding: 0;
     margin: 0;
-    line-height: var(--navbar-height);
+    line-height: 50px;
     text-decoration: none;
     padding: 0 40px;
     color: rgb(104, 152, 248);
@@ -36,4 +42,16 @@
 .navbar > nav > a:focus{
     background-color: rgba(239, 63, 63, 0.705);
     outline: none;
+}
+
+@media screen and (width < 904px) {
+    :root {
+        --navbar-height: 100px;
+    }
+}
+
+@media screen and (width < 471px) {
+    :root {
+        --navbar-height: 150px;
+    }
 }
