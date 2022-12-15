@@ -23,7 +23,29 @@
 
 #profile-picture {
     width: 300px;
-    border-radius: 50%;
+    border-radius: 61% 39% 60% 40% / 38% 55% 45% 62% ;
+    animation-name: profile;
+    animation-delay: 0ms;
+    animation-timing-function: cubic-bezier(1,1,1,1);
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes profile {
+    0% {
+        border-radius:  61% 39% 60% 40% / 38% 55% 45% 62% ;
+    } 
+
+    30% {
+        border-radius:  50% 50% 42% 58% / 51% 42% 58% 49% ;
+    } 
+ 
+    60% {
+        border-radius: 59% 41% 29% 71% / 62% 34% 66% 38%  ;
+    }
+    100% {
+        border-radius: 61% 39% 60% 40% / 38% 55% 45% 62%  ;
+    } 
 }
 
 .home-wrapper h1 {
