@@ -1,0 +1,18 @@
+{
+    "FrontEndDev": {
+        "type": "tech",
+        "title": "FrontEnd Developer",
+        "company": "Project Flux",
+        "from": "Aug 2022",
+        "to": "Nov 2022",
+        "description": "testing loremtesting loremtesting loremtesting loremtesting loremtesting loremtesting loremtesting lorem"
+    },
+    "Farmer": {
+        "type": "non tech",
+        "title": "Dairy and Agricultural Farmer",
+        "company": "My Farm",
+        "from": "2007",
+        "to": "Present",
+        "description": "testing loremtesting loremtesting loremtesting loremtesting lorem"
+    }
+}

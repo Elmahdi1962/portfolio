@@ -6,8 +6,8 @@ import Contact from "./components/contact/Contact";
 import "./app.css";
 
 import { useEffect } from "react";
-import Experience from "./components/experience/experience";
-import Education from "./components/education/education";
+import Experience from "./components/experience/Experience";
+import Education from "./components/education/Education";
 
 // copy of the clickedLink imported variable to be able to change it
 let clickedLinkC = clickedLink;

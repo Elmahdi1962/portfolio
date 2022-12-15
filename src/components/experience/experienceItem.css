@@ -1,0 +1,40 @@
+.experience-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color:aliceblue;
+    border-radius: 5px;
+    width: 90%;
+}
+
+.experience-item > .experience-title {
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin: 5px;
+}
+
+.experience-item > .experience-company {
+    font-weight: normal;
+    font-size: 1rem;
+    margin: 0 0 0 5px;
+}
+
+.experience-item > .experience-time {
+    font-weight: bold;
+    font-size: 0.7rem;
+    margin: 0 0 0 5px;
+}
+
+.experience-item > .experience-description {
+    font-weight: normal;
+    font-size: 1rem;
+    margin: 0;
+    margin-top: 5px;
+    padding: 5px;
+    background-color: azure;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 -8px 5px -5px pink;
+}
