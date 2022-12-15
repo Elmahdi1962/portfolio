@@ -14,6 +14,7 @@
     max-height: calc(100vh - var(--navbar-height));
     min-height: calc(100vh - var(--navbar-height));
     background-color: rgba(104, 51, 107, 0.576);
+    box-shadow: 0 0 65px rgba(104, 51, 107, 0.938);
     margin: auto;
     display: flex;
     justify-content: space-evenly;
@@ -24,6 +25,7 @@
 #profile-picture {
     width: 300px;
     border-radius: 61% 39% 60% 40% / 38% 55% 45% 62% ;
+    box-shadow: 0 0 15px #9ecaed;
     animation-name: profile;
     animation-delay: 0ms;
     animation-timing-function: cubic-bezier(1,1,1,1);
@@ -52,6 +54,8 @@
     color: aliceblue;
     word-wrap: break-word;
     word-break: break-word;
+    text-align: center;
+    text-shadow: 0 0 5px #9893f4;
 }
 
 .home-wrapper p {
