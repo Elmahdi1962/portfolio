@@ -13,8 +13,8 @@
     height: calc(100vh - var(--navbar-height));
     max-height: calc(100vh - var(--navbar-height));
     min-height: calc(100vh - var(--navbar-height));
-    background-color: rgba(104, 51, 107, 0.576);
-    box-shadow: 0 0 65px rgba(104, 51, 107, 0.938);
+    background-color: var(--wrapers-primary-bgc);
+    box-shadow: 0 0 65px var(--wrapers-primary-bs);
     margin: auto;
     display: flex;
     justify-content: space-evenly;

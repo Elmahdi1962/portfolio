@@ -11,6 +11,6 @@
     height: calc(100vh - var(--navbar-height));
     max-height: calc(100vh - var(--navbar-height));
     min-height: calc(100vh - var(--navbar-height));
-    background-color: rgba(104, 51, 107, 0.576);
+    background-color: var(--wrapers-primary-bgc);
     margin: auto;
 }

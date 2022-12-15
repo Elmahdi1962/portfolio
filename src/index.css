@@ -10,6 +10,11 @@
   display: none;
 }
 
+:root {
+  --wrapers-primary-bgc: rgba(104, 51, 107, 0.576); /* background color of the wrapers */
+  --wrapers-primary-bs: rgba(104, 51, 107, 0.938); /* box shadow color  of the wrapers*/
+}
+
 * {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
