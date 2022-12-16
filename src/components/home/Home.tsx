@@ -7,7 +7,10 @@ export default function Home(props: HomeProps) {
     <section id="home" className="home-container">
       <div className="home-wrapper">
         <img src="images/mypic.jpg" alt="my picture" id="profile-picture" />
-        <h1>Software Engineer, Frontend Developer</h1>
+        <div id="info-headers">
+          <h1>Elmahdi Mamoun</h1>
+          <h2>Software Engineer, Frontend Developer</h2>
+        </div>
         <p>
           I’m a self taugh programmer and an Alx-africa Software engineer
           Program Graduate. i have a background in electrical installation, game

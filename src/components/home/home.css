@@ -24,38 +24,46 @@
 
 #profile-picture {
     width: 300px;
-    border-radius: 61% 39% 60% 40% / 38% 55% 45% 62% ;
+    border-radius: 61% 39% 60% 40% / 38% 55% 45% 62%;
     box-shadow: 0 0 15px #9ecaed;
     animation-name: profile;
     animation-delay: 0ms;
-    animation-timing-function: cubic-bezier(1,1,1,1);
+    animation-timing-function: cubic-bezier(1, 1, 1, 1);
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
 
-@keyframes profile {
-    0% {
-        border-radius:  61% 39% 60% 40% / 38% 55% 45% 62% ;
-    } 
-
-    30% {
-        border-radius:  50% 50% 42% 58% / 51% 42% 58% 49% ;
-    } 
- 
-    60% {
-        border-radius: 59% 41% 29% 71% / 62% 34% 66% 38%  ;
-    }
-    100% {
-        border-radius: 61% 39% 60% 40% / 38% 55% 45% 62%  ;
-    } 
-}
-
-.home-wrapper h1 {
+#info-headers>* {
+    width: 100%;
     color: aliceblue;
     word-wrap: break-word;
     word-break: break-word;
-    text-align: center;
+    text-align: left;
     text-shadow: 0 0 5px #9893f4;
+}
+
+@media screen and (width<750px) {
+    #info-headers>* {
+        text-align: center;
+    }
+}
+
+@keyframes profile {
+    0% {
+        border-radius: 61% 39% 60% 40% / 38% 55% 45% 62%;
+    }
+
+    30% {
+        border-radius: 50% 50% 42% 58% / 51% 42% 58% 49%;
+    }
+
+    60% {
+        border-radius: 59% 41% 29% 71% / 62% 34% 66% 38%;
+    }
+
+    100% {
+        border-radius: 61% 39% 60% 40% / 38% 55% 45% 62%;
+    }
 }
 
 .home-wrapper p {
@@ -76,6 +84,23 @@
     color: white;
     font-size: 14;
     font-weight: bold;
+    --glow-clr: rgb(122, 128, 246);
+    box-shadow: 0px 0px 40px 8px var(--glow-clr);
+    animation: btn-glow 3s infinite;
+}
+
+@keyframes btn-glow {
+    0% {
+        box-shadow: 0px 0px 40px 8px var(--glow-clr);
+    }
+
+    50% {
+        box-shadow: 0px 0px 40px 20px var(--glow-clr);
+    }
+
+    100% {
+        box-shadow: 0px 0px 40px 8px var(--glow-clr);
+    }
 }
 
 .download-btn:hover {
