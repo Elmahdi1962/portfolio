@@ -36,7 +36,7 @@ export default function Education(props: EducationProps) {
   // stop Propagation of the scroll event in the experience wrapper
   useEffect(() => {
     // get the elm
-    const wrapper = document.getElementsByClassName("experience-wrapper")[0];
+    const wrapper = document.getElementsByClassName("education-wrapper")[0];
     wrapper.addEventListener("wheel", antiPropagator);
 
     // cleanup
@@ -44,6 +44,7 @@ export default function Education(props: EducationProps) {
       wrapper.removeEventListener("wheel", antiPropagator);
     };
   }, []);
+
   return (
     <section id="education" className="education-container">
       <div className="education-wrapper">
