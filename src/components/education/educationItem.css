@@ -1,4 +1,4 @@
-.experience-item {
+.education-item {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -9,25 +9,25 @@
     margin: 15px 0;
 }
 
-.experience-item>.experience-title {
+.education-item>.education-title {
     font-weight: bold;
     font-size: 1.4rem;
     margin: 5px;
 }
 
-.experience-item>.experience-company {
+.education-item>.education-school {
     font-weight: normal;
     font-size: 1rem;
     margin: 0 0 0 5px;
 }
 
-.experience-item>.experience-time {
+.education-item>.education-time {
     font-weight: bold;
     font-size: 0.7rem;
     margin: 0 0 0 5px;
 }
 
-.experience-item>.experience-description {
+.education-item>.education-description {
     font-weight: normal;
     font-size: 1rem;
     margin: 0;
@@ -38,4 +38,23 @@
     width: 100%;
     box-sizing: border-box;
     box-shadow: 0 -8px 5px -5px pink;
+}
+
+.education-certs {
+    margin: 0;
+    width: 100%;
+}
+
+.education-certs>a {
+    text-decoration: none;
+    display: inline-block;
+    word-break: break-all;
+    margin: 0 5px;
+    font-size: 0.8rem;
+    border-left: 1px solid red;
+    padding-left: 5px;
+}
+
+.education-certs>a:hover {
+    text-decoration: underline;
 }
