@@ -1,0 +1,38 @@
+{
+    "Softwareengineer": {
+        "type": "tech",
+        "title": "Software Engineering",
+        "school": "ALX Africa",
+        "from": "May 2021",
+        "to": "July 2022",
+        "description": "",
+        "certs": ["SECertificateOfCompletion.pdf", "transcript.pdf"]
+    },
+    "Frontenddevelopement": {
+        "type": "tech",
+        "title": "Frontend Developement",
+        "school": "Freecodecamp",
+        "from": "Oct 2020",
+        "to": "Apr 2021",
+        "description": "",
+        "certs": ["FrontEndDevelopmentResponsiveWebDesignCert.png", "FrontEndDevelopmentLibrariesCert.png"]
+    },
+    "ofppt": {
+        "type": "non tech",
+        "title": "Electric Installations",
+        "school": "OFPPT",
+        "from": "Dec 2019",
+        "to": "Dec 2020",
+        "description": "",
+        "certs": []
+    },
+    "highschool": {
+        "type": "non tech",
+        "title": "First Year Of Baccalaureate",
+        "school": "Moulay Rashid High School",
+        "from": "2015",
+        "to": "2016",
+        "description": " Dropped Out of school in the first year of Baccalaureate",
+        "certs": []
+    }
+}
