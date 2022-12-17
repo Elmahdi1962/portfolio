@@ -2,23 +2,28 @@
     syntax: '<angle>';
     inherits: false;
     initial-value: 30deg;
-  }
-  
+}
+
 
 #content-container {
-    --angle: 30deg; /*  needed for firefox to have a valid output */
+    --angle: 30deg;
+    /*  needed for firefox to have a valid output */
     width: 100vw;
     min-width: 100vw;
     max-width: 100vw;
-    background: linear-gradient(var(--angle) , #a80303 0%, #df5f5f 50%, #4b77d6 50%, #031d4a 100%);
+    background: linear-gradient(var(--angle), #a80303 0%, #df5f5f 50%, #4b77d6 50%, #031d4a 100%);
     transition: --angle 1s;
+    overflow-y: hidden;
     overflow-x: scroll;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    -ms-scroll-snap-destination: 0 0; /* code added */
-    scroll-snap-destination: 0 0; /* code added */
-    -ms-scroll-snap-type: x mandatory; /* code added */
+    -ms-scroll-snap-destination: 0 0;
+    /* code added */
+    scroll-snap-destination: 0 0;
+    /* code added */
+    -ms-scroll-snap-type: x mandatory;
+    /* code added */
     scroll-snap-type: x mandatory;
 }
 

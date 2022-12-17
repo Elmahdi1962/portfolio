@@ -1,6 +1,7 @@
 import "./experience.css";
 import { useState, useEffect } from "react";
 import { ExperienceItem, IExperienceItemProps } from "./ExperienceItem";
+import { antiPropagator } from "../../utils/utils";
 
 export interface ExperienceProps {}
 
@@ -32,6 +33,18 @@ export default function Experience(props: ExperienceProps) {
       });
   }, []);
 
+  // stop Propagation of the scroll event in the experience wrapper
+  useEffect(() => {
+    // get the elm
+    const wrapper = document.getElementsByClassName("experience-wrapper")[0];
+    wrapper.addEventListener("wheel", antiPropagator);
+
+    // cleanup
+    return () => {
+      wrapper.removeEventListener("wheel", antiPropagator);
+    };
+  }, []);
+
   return (
     <section id="experience" className="experience-container">
       <div className="experience-wrapper">
@@ -40,12 +53,11 @@ export default function Experience(props: ExperienceProps) {
         {Object.keys(experiences).length <= 0 ? (
           <h2>Loading</h2>
         ) : (
-          Object.keys(experiences).map((key) =>
-            experiences[key].type === "tech" ? (
-              <ExperienceItem {...experiences[key]} />
-            ) : (
-              <></>
-            )
+          Object.keys(experiences).map(
+            (key) =>
+              experiences[key].type === "tech" && (
+                <ExperienceItem {...experiences[key]} key={key} />
+              )
           )
         )}
 
@@ -56,12 +68,11 @@ export default function Experience(props: ExperienceProps) {
         {Object.keys(experiences).length <= 0 ? (
           <h2>Loading</h2>
         ) : (
-          Object.keys(experiences).map((key) =>
-            experiences[key].type !== "tech" ? (
-              <ExperienceItem {...experiences[key]} />
-            ) : (
-              <></>
-            )
+          Object.keys(experiences).map(
+            (key) =>
+              experiences[key].type !== "tech" && (
+                <ExperienceItem {...experiences[key]} key={key} />
+              )
           )
         )}
       </div>

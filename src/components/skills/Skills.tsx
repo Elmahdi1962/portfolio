@@ -1,6 +1,7 @@
 import "./skills.css";
 import { useState, useEffect } from "react";
 import { ISkillItemProps, SkillItem } from "./SkillItem";
+import { antiPropagator } from "../../utils/utils";
 
 export interface SkillsProps {}
 
@@ -32,11 +33,6 @@ export default function Skills(props: SkillsProps) {
       });
   }, []);
 
-  // define scroll evnt handler
-  const antiPropagator = (e: Event) => {
-    e.stopPropagation();
-  };
-
   // stop Propagation of the scroll event in the skills wrapper
   useEffect(() => {
     // get the elm
@@ -57,8 +53,11 @@ export default function Skills(props: SkillsProps) {
         {Object.keys(skills).length <= 0 ? (
           <h2>Loading</h2>
         ) : (
-          Object.keys(skills).map((key) =>
-            skills[key].type === "tech" ? <SkillItem {...skills[key]} /> : <></>
+          Object.keys(skills).map(
+            (key) =>
+              skills[key].type === "tech" && (
+                <SkillItem {...skills[key]} key={key} />
+              )
           )
         )}
 
@@ -67,8 +66,11 @@ export default function Skills(props: SkillsProps) {
         {Object.keys(skills).length <= 0 ? (
           <h2>Loading</h2>
         ) : (
-          Object.keys(skills).map((key) =>
-            skills[key].type !== "tech" ? <SkillItem {...skills[key]} /> : <></>
+          Object.keys(skills).map(
+            (key) =>
+              skills[key].type !== "tech" && (
+                <SkillItem {...skills[key]} key={key} />
+              )
           )
         )}
       </div>

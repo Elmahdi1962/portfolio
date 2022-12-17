@@ -3,7 +3,6 @@
     min-width: 100vw;
     max-width: 100vw;
     height: calc(100vh - var(--navbar-height));
-    overflow-y: scroll;
 }
 
 .skills-wrapper {
@@ -23,7 +22,7 @@
     align-items: flex-start;
     align-content: flex-start;
     box-sizing: border-box;
-    padding: 20px;
+    padding: 50px 20px;
     overflow-y: scroll;
 }
 

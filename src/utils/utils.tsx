@@ -29,3 +29,10 @@ function isInViewport(element: HTMLElement): boolean {
     rect.right <= (window.innerWidth || document.documentElement.clientWidth)
   );
 }
+
+/*
+ * scroll event handler that stops propagation
+ */
+export const antiPropagator = (e: Event) => {
+  e.stopPropagation();
+};
