@@ -1,0 +1,107 @@
+{
+    "1": {
+        "title": "Motmir",
+        "description": "Full Ecommerce website for selling dates fruits",
+        "thumbnail": "motmir.png",
+        "demo": "https://elmahdi1962.github.io/motmir/",
+        "github": "https://github.com/Elmahdi1962/motmir"
+    },
+    "2": {
+        "title": "Regy",
+        "description": "General Purpose Registry",
+        "thumbnail": "regy.png",
+        "demo": "https://docs.google.com/presentation/d/1_2Y7licMBjI3IeBtTnm3y7OJXwsB8Q7odLX-4yEh19w/edit?usp=sharing",
+        "github": "https://github.com/Elmahdi1962/Regy"
+    },
+    "3": {
+        "title": "AirBnB Clone",
+        "description": "AirBnB Clone, created static clones and dynamic clones using python3(Flask), also created a console app that controls the storage of the website either its a file system storage or a database it supports both, and from this console app we can add and remove and preview data. This is one of the projects done in the alx program",
+        "thumbnail": "ping.png",
+        "demo": "",
+        "github": "https://github.com/Elmahdi1962/AirBnB_clone_v4"
+    },
+    "4": {
+        "title": "Monty",
+        "description": "A console app that reads and executes a monty script(new made up language)",
+        "thumbnail": "ping.png",
+        "demo": "",
+        "github": "https://github.com/Elmahdi1962/monty"
+    },
+    "5": {
+        "title": "Simple Shell",
+        "description": "This program is a simple Unix shell implemented in C using the gnu89 standard.",
+        "thumbnail": "ping.png",
+        "demo": "",
+        "github": "https://github.com/Elmahdi1962/simple_shell"
+    },
+    "6": {
+        "title": "Printf",
+        "description": "New verison of Printf function in C from scratch",
+        "thumbnail": "ping.png",
+        "demo": "",
+        "github": "https://github.com/Elmahdi1962/printf"
+    },
+    "7": {
+        "title":"25 + 5 Clock",
+        "description": "",
+        "thumbnail":"clock.PNG",
+        "demo":"https://codepen.io/elmahdi1962/pen/poRLjRg",
+        "github":""
+    },
+    "8": {
+        "title":"Javascript Calculator",
+        "thumbnail":"calculator.PNG",
+        "demo":"https://codepen.io/elmahdi1962/pen/VwPePvv",
+        "github": "",
+        "description":""
+    },
+    "9": {
+        "title":"Drum Machine",
+        "thumbnail":"drummachine.PNG",
+        "demo":"https://codepen.io/elmahdi1962/pen/PobMYOV",
+        "github": "",
+        "description":""
+    },
+    "10": {
+        "title":"Simple React Markdown Previewer",
+        "thumbnail":"marckdown.PNG",
+        "demo":"https://codepen.io/elmahdi1962/pen/KKNLoNy",
+        "github": "",
+        "description":""
+    },
+    "11": {
+        "title":"Random Quote Machine",
+        "thumbnail":"quotemachine.PNG",
+        "demo":"https://codepen.io/elmahdi1962/pen/eYBbmGV",
+        "github": "",
+        "description":""
+    },
+    "12": {
+        "title":"Technical Documentation Page",
+        "thumbnail":"documentation.PNG",
+        "demo":"https://codepen.io/elmahdi1962/pen/WNGraLJ",
+        "github": "",
+        "description":""
+    },
+    "13": {
+        "title":"Product Landing Page",
+        "thumbnail":"productlandingpage.PNG",
+        "demo":"https://codepen.io/elmahdi1962/pen/xxEbJvQ",
+        "github": "",
+        "description":""
+    },
+    "14": {
+        "title":"Survey Form",
+        "thumbnail":"survey.PNG",
+        "demo":"https://codepen.io/elmahdi1962/pen/vYXBbNj",
+        "github": "",
+        "description":""
+    },
+    "15": {
+        "title":"Responsive web design project #1",
+        "thumbnail":"responsivepage.PNG",
+        "demo":"https://codepen.io/elmahdi1962/pen/OJRLRNz",
+        "github": "",
+        "description":""
+    }
+}

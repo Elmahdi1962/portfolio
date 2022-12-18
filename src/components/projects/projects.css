@@ -12,5 +12,21 @@
     max-height: calc(100vh - var(--navbar-height));
     min-height: calc(100vh - var(--navbar-height));
     background-color: var(--wrapers-primary-bgc);
+    box-shadow: 0 0 65px var(--wrapers-primary-bs);
     margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    padding: 50px 20px;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    gap: 15px;
+}
+
+.projects-header {
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
 }

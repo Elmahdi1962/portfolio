@@ -19,7 +19,7 @@ export const debounce = <T extends (...args: any[]) => any>(
  *
  * Returns Boolean
  */
-function isInViewport(element: HTMLElement): boolean {
+export function isInViewport(element: HTMLElement): boolean {
   const rect = element.getBoundingClientRect();
   return (
     rect.top >= 0 &&
