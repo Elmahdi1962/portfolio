@@ -13,7 +13,7 @@ export function ProjectItem(props: IProjectItemProps) {
   return (
     <div className="project-item">
       <img
-        src={"/images/projects/" + props.thumbnail}
+        src={"images/projects/" + props.thumbnail}
         className="project-thumbnail"
       />
       <h2 className="project-title">{props.title}</h2>
