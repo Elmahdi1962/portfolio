@@ -28,11 +28,11 @@
     },
     "highschool": {
         "type": "non tech",
-        "title": "First Year Of Baccalaureate",
+        "title": "High School",
         "school": "Moulay Rashid High School",
-        "from": "2015",
+        "from": "2014",
         "to": "2016",
-        "description": " Dropped Out of school in the first year of Baccalaureate",
+        "description": "Dropped Out of school in the first year of Baccalaureate",
         "certs": []
     }
 }
