@@ -18,7 +18,7 @@ export default function Home(props: HomeProps) {
           job as a Frontend developer.
         </p>
         <a
-          href={process.env.PUBLIC_URL + "data/resume.pdf"}
+          href={"data/resume.pdf"}
           download="resume.pdf"
           className="download-btn"
         >
