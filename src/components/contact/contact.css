@@ -12,5 +12,57 @@
     max-height: calc(100vh - var(--navbar-height));
     min-height: calc(100vh - var(--navbar-height));
     background-color: var(--wrapers-primary-bgc);
+    box-shadow: 0 0 65px var(--wrapers-primary-bs);
     margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 50px 20px;
+    overflow-y: scroll;
+    box-sizing: border-box;
+}
+
+.contact-wrapper>form {
+    background-color: rgb(182, 194, 228);
+    width: 90%;
+    max-width: 800px;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contact-wrapper>form>* {
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    box-sizing: border-box;
+    height: 30px;
+    border-radius: 4px;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.contact-wrapper>form>textarea {
+    resize: vertical;
+    height: 100px;
+    min-height: 100px;
+    max-height: 70vh;
+    border: 2px solid transparent;
+}
+
+.contact-wrapper>form>*:focus {
+    outline: none;
+    border: 2px solid red;
+}
+
+.contact-wrapper>form>input[type=submit] {
+    font-weight: bold;
+}
+
+.contact-wrapper>form>input[type=submit]:focus {
+    outline: none;
+    border: none;
+    background-color: rgb(59, 96, 132);
+    color: aliceblue;
 }
