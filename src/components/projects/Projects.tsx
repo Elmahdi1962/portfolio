@@ -40,7 +40,7 @@ export default function Projects(props: ProjectsProps) {
       <div className="projects-wrapper">
         <h1 className="projects-header">Projects</h1>
         {Object.keys(projects).map((key) => (
-          <ProjectItem {...projects[key]} />
+          <ProjectItem {...projects[key]} key={key} />
         ))}
       </div>
     </section>
