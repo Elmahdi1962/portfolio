@@ -6,7 +6,11 @@ export default function Home(props: HomeProps) {
   return (
     <section id="home" className="home-container">
       <div className="home-wrapper">
-        <img src="images/mypic.jpg" alt="my picture" id="profile-picture" />
+        <img
+          src="images/mypic.jpg"
+          alt="just my face :3"
+          id="profile-picture"
+        />
         <div id="info-headers">
           <h1>Elmahdi Mamoun</h1>
           <h2>Software Engineer, Frontend Developer</h2>
