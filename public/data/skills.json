@@ -1,152 +1,158 @@
 {
-    "Javascript": {
-        "title": "Javascript",
-        "experience": "2 years",
-        "icon": "javascript-48.png",
-        "type": "tech"
-    },
-    "Html": {
-        "title": "Html",
-        "experience": "2 years",
-        "icon": "html-48.png",
-        "type": "tech"
-    },
-    "Css": {
-        "title": "Css",
-        "experience": "2 years",
-        "icon": "css-48.png",
-        "type": "tech"
-    },
-    "Python": {
-        "title": "Python",
-        "experience": "1 year",
-        "icon": "python-48.png",
-        "type": "tech"
-    },
-    "ReactJs": {
-        "title": "ReactJs",
-        "experience": "1 year",
-        "icon": "react-80.png",
-        "type": "tech"
-    },
-    "Jest": {
-        "title": "Jest",
-        "experience": "3 Months",
-        "icon": "jest-48.png",
-        "type": "tech"
-    },
-    "Redux": {
-        "title": "Redux",
-        "experience": "3 Months",
-        "icon": "redux-48.png",
-        "type": "tech"
-    },
-    "MySQL": {
-        "title": "MySQL",
-        "experience": "3 Months",
-        "icon": "mysql-48.png",
-        "type": "tech"
-    },
-    "TypeScript": {
-        "title": "TypeScript",
-        "experience": "3 Months",
-        "icon": "typescript-48.png",
-        "type": "tech"
-    },
-    "Sass": {
-        "title": "Sass",
-        "experience": "1 Year",
-        "icon": "sass-48.png",
-        "type": "tech"
-    },
-    "Jquery": {
-        "title": "Jquery",
-        "experience": "1 Year",
-        "icon": "jquery-50.png",
-        "type": "tech"
-    },
-    "Flask": {
-        "title": "Flask",
-        "experience": "3 Months",
-        "icon": "flask-50.png",
-        "type": "tech"
-    },
-    "RestApi": {
-        "title": "RestApi",
-        "experience": "3 Months",
-        "icon": "restapi-50.png",
-        "type": "tech"
-    },
-    "Flutter": {
-        "title": "Flutter",
-        "experience": "1 Month",
-        "icon": "flutter-48.png",
-        "type": "tech"
-    },
-    "Enzyme": {
-        "title": "Enzyme",
-        "experience": "3 Months",
-        "icon": "enzyme-64.png",
-        "type": "tech"
-    },
-    "Babel": {
-        "title": "Babel",
-        "experience": "3 Months",
-        "icon": "babel-64.png",
-        "type": "tech"
-    },
-    "WebPack": {
-        "title": "WebPack",
-        "experience": "3 Months",
-        "icon": "webpack-64.png",
-        "type": "tech"
-    },
-    "C": {
-        "title": "C",
-        "experience": "1 Year",
-        "icon": "c-48.png",
-        "type": "tech"
-    },
-    "Csharp": {
-        "title": "C#",
-        "experience": "1 Year",
-        "icon": "csharp-48.png",
-        "type": "tech"
-    },
-    "Git": {
-        "title": "Git",
-        "experience": "2 Years",
-        "icon": "git-50.png",
-        "type": "tech"
-    },
-    "Bash": {
-        "title": "Bash",
-        "experience": "2 Years",
-        "icon": "console-48.png",
-        "type": "tech"
-    },
-    "Nginx": {
-        "title": "Nginx",
-        "experience": "3 Months",
-        "icon": "nginx-48.png",
-        "type": "tech"
-    },
-    "HaProxy": {
-        "title": "HaProxy",
-        "experience": "3 Months",
-        "icon": "haproxy.svg",
-        "type": "tech"
-    },
-    "Farming": {
-        "title": "Farming",
-        "experience": "16 years",
-        "icon": "farm-64.png",
-        "type": "None Tech"
-    },
-    "InstallationElectricity": {
-        "title": "Installation Electricity",
-        "experience": "1 year",
-        "icon": "electrician-64.png",
-        "type": "None Tech"
-    }
+  "Javascript": {
+    "title": "Javascript",
+    "experience": "2 years",
+    "icon": "javascript-48.png",
+    "type": "tech"
+  },
+  "Html": {
+    "title": "Html",
+    "experience": "2 years",
+    "icon": "html-48.png",
+    "type": "tech"
+  },
+  "Css": {
+    "title": "Css",
+    "experience": "2 years",
+    "icon": "css-48.png",
+    "type": "tech"
+  },
+  "Python": {
+    "title": "Python",
+    "experience": "1 year",
+    "icon": "python-48.png",
+    "type": "tech"
+  },
+  "ReactJs": {
+    "title": "ReactJs",
+    "experience": "1 year",
+    "icon": "react-80.png",
+    "type": "tech"
+  },
+  "Jest": {
+    "title": "Jest",
+    "experience": "3 Months",
+    "icon": "jest-48.png",
+    "type": "tech"
+  },
+  "Redux": {
+    "title": "Redux",
+    "experience": "3 Months",
+    "icon": "redux-48.png",
+    "type": "tech"
+  },
+  "MySQL": {
+    "title": "MySQL",
+    "experience": "3 Months",
+    "icon": "mysql-48.png",
+    "type": "tech"
+  },
+  "TypeScript": {
+    "title": "TypeScript",
+    "experience": "3 Months",
+    "icon": "typescript-48.png",
+    "type": "tech"
+  },
+  "Sass": {
+    "title": "Sass",
+    "experience": "1 Year",
+    "icon": "sass-48.png",
+    "type": "tech"
+  },
+  "Jquery": {
+    "title": "Jquery",
+    "experience": "1 Year",
+    "icon": "jquery-50.png",
+    "type": "tech"
+  },
+  "Flask": {
+    "title": "Flask",
+    "experience": "3 Months",
+    "icon": "flask-50.png",
+    "type": "tech"
+  },
+  "RestApi": {
+    "title": "RestApi",
+    "experience": "3 Months",
+    "icon": "restapi-50.png",
+    "type": "tech"
+  },
+  "Flutter": {
+    "title": "Flutter",
+    "experience": "1 Month",
+    "icon": "flutter-48.png",
+    "type": "tech"
+  },
+  "Enzyme": {
+    "title": "Enzyme",
+    "experience": "3 Months",
+    "icon": "enzyme-64.png",
+    "type": "tech"
+  },
+  "Babel": {
+    "title": "Babel",
+    "experience": "3 Months",
+    "icon": "babel-64.png",
+    "type": "tech"
+  },
+  "WebPack": {
+    "title": "WebPack",
+    "experience": "3 Months",
+    "icon": "webpack-64.png",
+    "type": "tech"
+  },
+  "C": {
+    "title": "C",
+    "experience": "1 Year",
+    "icon": "c-48.png",
+    "type": "tech"
+  },
+  "Csharp": {
+    "title": "C#",
+    "experience": "1 Year",
+    "icon": "csharp-48.png",
+    "type": "tech"
+  },
+  "Git": {
+    "title": "Git",
+    "experience": "2 Years",
+    "icon": "git-50.png",
+    "type": "tech"
+  },
+  "Bash": {
+    "title": "Bash",
+    "experience": "2 Years",
+    "icon": "console-48.png",
+    "type": "tech"
+  },
+  "Nginx": {
+    "title": "Nginx",
+    "experience": "3 Months",
+    "icon": "nginx-48.png",
+    "type": "tech"
+  },
+  "HaProxy": {
+    "title": "HaProxy",
+    "experience": "3 Months",
+    "icon": "haproxy.svg",
+    "type": "tech"
+  },
+  "ElectronJs": {
+    "title": "ElectronJs",
+    "experience": "2 Month",
+    "icon": "electronjs.png",
+    "type": "tech"
+  },
+  "Farming": {
+    "title": "Farming",
+    "experience": "16 years",
+    "icon": "farm-64.png",
+    "type": "None Tech"
+  },
+  "InstallationElectricity": {
+    "title": "Installation Electricity",
+    "experience": "1 year",
+    "icon": "electrician-64.png",
+    "type": "None Tech"
+  }
 }
