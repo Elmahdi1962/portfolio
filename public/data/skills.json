@@ -143,6 +143,12 @@
     "icon": "electronjs.png",
     "type": "tech"
   },
+  "ExpressJs": {
+    "title": "ExpressJs",
+    "experience": "1 Month",
+    "icon": "expressjs.png",
+    "type": "tech"
+  },
   "Farming": {
     "title": "Farming",
     "experience": "16 years",
