@@ -1,18 +1,26 @@
 {
-    "FrontEndDev": {
-        "type": "tech",
-        "title": "FrontEnd Developer",
-        "company": "Project Flux",
-        "from": "Aug 2022",
-        "to": "Nov 2022",
-        "description": ""
-    },
-    "Farmer": {
-        "type": "non tech",
-        "title": "Dairy and Agricultural Farmer",
-        "company": "My Farm",
-        "from": "2007",
-        "to": "Present",
-        "description": "i have being  working in our farm since i was a kid :D"
-    }
+  "SoftwareEngineerAndTeamLeader": {
+    "type": "tech",
+    "title": "Software Engineer And Team Leader",
+    "company": "Greenie Web",
+    "from": "Apr 2023",
+    "to": "Oct 2023",
+    "description": "Lead and work with my team thru daily assigned tasks of building \nproduct feature for decarbonizing code. (check resume for more details)"
+  },
+  "FrontEndDeveloper": {
+    "type": "tech",
+    "title": "FrontEnd Developer",
+    "company": "Greenie Web",
+    "from": "Aug 2022",
+    "to": "Nov 2022",
+    "description": "Lead and work with my team thru daily assigned tasks of building\n product feature for decarbonizing code. (check resume for more details)"
+  },
+  "Farmer": {
+    "type": "non tech",
+    "title": "Dairy and Agricultural Farmer",
+    "company": "My Farm",
+    "from": "2007",
+    "to": "Present",
+    "description": "i have being  working in our farm since i was a kid :D"
+  }
 }
